@@ -1,0 +1,584 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  background-image: linear-gradient(135deg, #000000 0%, #000000 100%);
+  font-family: "Open Sans", sans-serif;
+  background-image: url(images/black-smooth-textured-paper-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  height: -webkit-fill-available;
+}
+
+#firstsection .row {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+#firstsection .row h1 {
+  color: white;
+  font-size: 3vw;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#firstsection .buttons {
+  padding-top: -500px;
+  display: flex;
+}
+#firstsection .buttons a {
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+
+  margin: 1rem;
+  margin-top: 100px;
+  color: #ffffff;
+  border: 2px solid rgb(86, 30, 84);
+  border-radius: 6px;
+  font-family: poppins;
+  font-size: 2.1vw;
+  text-transform: capitalize;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px rgb(119, 80, 134);
+}
+.buttons a i {
+  margin-right: 10px;
+}
+.buttons a:hover {
+  transition: 0.5s;
+
+  background-color: rgb(119, 80, 134);
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-family: poppins;
+  text-transform: capitalize;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.leftsection .btn:hover {
+  padding: 12px;
+  transition: 0.5s;
+  margin: 1rem;
+  background-color: rgb(119, 80, 134);
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-family: poppins;
+  text-transform: capitalize;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.rightsection img {
+  max-width: 100%;
+  padding-top: -40px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 1px 2px #b222ff;
+}
+
+/* navbar*/
+.navbar-brand {
+  /* overflow-x: hidden; */
+
+  color: #ffffff;
+  font-size: 2vw;
+  /* overflow-x: hidden ; */
+}
+.navbar {
+  background-color: rgb(119, 80, 134);
+  border-radius: 15px 15px 15px 15px;
+  padding: 5px;
+  margin: auto;
+  /* overflow-x: hidden ; */
+  height: 8vh;
+}
+.navbar-toggler {
+  margin-right: 15px;
+  /* overflow-x: hidden ; */
+}
+.nav-item {
+  padding-left: 20px;
+  /* overflow-x: hidden ; */
+}
+.nav-item a {
+  color: #ffffff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: inherit;
+  font-size: 20px;
+  /* overflow-x: hidden ; */
+}
+.offcanvas {
+  background-color: rgb(119, 80, 134);
+  border-radius: 15px 15px 15px 15px;
+  max-width: 50%;
+  box-shadow: 0px 0px 200px 0px rgb(140, 93, 158);
+}
+
+/* navbar end*/
+
+.purple {
+  color: rgb(119, 80, 134);
+  font-weight: bold;
+}
+
+#element {
+  color: rgb(119, 80, 134);
+}
+
+/*------------------------About me-----------------------*/
+
+#about {
+  margin: 5px 20px;
+  overflow-x: hidden;
+}
+#about .about_2 p {
+  text-align: justify;
+}
+
+.about_2 h3 {
+  font-size: 40px;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f4f4f4;
+}
+.about_2 p {
+  color: #ffffff;
+  margin-inline-start: auto;
+}
+
+#about .about_1 {
+  font-size: 1rem;
+  width: 100%;
+}
+
+.about_1 img {
+  max-width: 70%;
+  margin-left: auto;
+  overflow-x: hidden;
+  padding-top: -100px;
+  border-radius: 50%;
+  box-shadow: 1px 2px #b222ff;
+}
+
+.tab-titles {
+  display: flex;
+  margin: 20px 0 40px;
+  color: #bb0000;
+}
+.tab-links {
+  margin-right: 10vw;
+  font-size: 2vw;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+.tab-links::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+.tab-links.active-link::after {
+  width: 50%;
+}
+
+.tab-contents ul li span {
+  color: rgb(119, 80, 134);
+  font-size: 19px;
+}
+.tab-contents ul li p {
+  color: #f4f4f4;
+  font-size: 13px;
+}
+.tab-contents {
+  display: none;
+}
+.tab-contents.active-tab {
+  display: block;
+}
+
+/*--------------------about me end----------------*/
+
+/*--------------------skills section start-------------------*/
+
+#services {
+  overflow-x: hidden;
+  padding: 30px 0;
+}
+#services,
+p {
+  color: #ffffff;
+  text-align: justify;
+}
+
+#services h1 {
+  color: #ffffff;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.services-list div {
+  background: #262626;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  border-right: 10px;
+  color: #ffffff;
+  border-radius: 40px 50px;
+  transition: background 0.5s, transform 0.5s;
+}
+
+.services-list div i {
+  font-size: 45px;
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.services-list div h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.services-list div a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.services-list div:hover {
+  background: rgb(119, 80, 134);
+  transform: translateY(-10px);
+}
+/*--------------------skill section end----------------*/
+/*--------------------protfolio start----------------*/
+#protfolio {
+  overflow-x: hidden;
+  padding: 50px 0;
+}
+#protfolio h1{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+
+.work-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.work {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.work img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.layer {
+  width: 100%;
+  height: 0%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 10px;
+  color: #ffffff;
+  transition: height 0.5s;
+}
+.layer h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.layer a {
+  margin-top: 2px;
+  color: #3372f0;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 40px;
+  background: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.work:hover img {
+  transform: scale(1.1);
+}
+
+.work:hover .layer {
+  height: 100%;
+}
+
+/*--------------------protfolio end----------------*/
+/*--------------------certificate start----------------*/
+
+#certificate {
+ 
+  padding: 50px 0;
+}
+#certificate .container{
+  width: 100%;
+}
+#certificate .row{
+  width: 100%;
+}
+#certificate h1{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+
+.w-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 100px;
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+}
+.works {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  width: 110%;
+}
+.works img {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+
+
+
+
+.works:hover img {
+  transform: scale(1.1);
+}
+
+
+
+
+/*--------------------certificate end----------------*/
+
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: fantasy;
+  font-weight: initial;
+  color: #ff7300;
+}
+
+/* social media logo */
+
+.social {
+  text-align: center;
+}
+.social .fa{
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: #ffffff;
+}
+
+.fa-facebook {
+  background: #55acee;
+  color: white;
+  border-radius: 90px;
+  text-align: center;
+  
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+  block-size: 50px;
+  border-radius: 90px;
+}
+
+.fa-instagram {
+  background: #da2c2c;
+  color: rgb(255, 255, 255);
+  block-size: 50px;
+  block-size: 50px;
+  border-radius: 90px;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-linkedin {
+  color: rgb(255, 255, 255);
+  background: #005cd4;
+  block-size: 50px;
+  block-size: 50px;
+  border-radius: 90px;
+}
+.fa {
+  line-height: 10px;
+}
+
+.fa-whatsapp {
+  color: rgb(255, 255, 255);
+  background: #00f562;
+
+  border-radius: 90px;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* social media logo end */
+
+/****************************our page start**************************************/
+
+#our_page {
+  margin: 4px 4px;
+  overflow-x: hidden;
+}
+#our_page .row {
+  overflow-x: hidden;
+}
+.about_us p {
+  color: rgb(255, 255, 255);
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+#our_page h6 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 5px;
+
+  color: rgb(255, 255, 255);
+}
+
+.contact_us {
+  overflow-x: hidden;
+}
+
+.contact_us form {
+  border-radius: 10px 10px;
+  border-style: solid;
+  color: rgb(248, 244, 244);
+  max-width: 70%;
+  margin: auto;
+  border-bottom-width: 15px;
+  padding-bottom: -5px;
+  overflow-x: hidden;
+  margin-bottom: 20px;
+}
+.contact_us .form-group {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 25px;
+}
+.contact_us input {
+  font-size: 10px;
+  padding: 20px;
+}
+.contact_us label {
+  margin-left: 5px;
+  font-size: 2rem;
+  color: #ffffff;
+  font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact_us .valid-feedback {
+  margin-left: 30px;
+}
+.contact_us .invalid-feedback {
+  margin-left: 30px;
+  font-size: 1vw;
+  color: #eb1b1b;
+}
+
+
+
+
+
+
+
+/****************************our page end *************************************/
+/* footer start */
+
+.footer h5 {
+  color: #a7a7a7;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+ 
+
+}
+.footer p{
+  color: rgb(255, 255, 255);
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+}
+.footer   a {
+  color: rgb(255, 255, 255);
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+/* footer end */
